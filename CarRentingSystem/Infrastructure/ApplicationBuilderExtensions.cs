@@ -25,7 +25,7 @@ namespace CarRentingSystem.Infrastructure
 
         private static void SeedCategories(CarRentingDbContext data)
         {
-            if (!data.Categories.Any())
+            if (data.Categories.Any())
             {
                 return;
             }

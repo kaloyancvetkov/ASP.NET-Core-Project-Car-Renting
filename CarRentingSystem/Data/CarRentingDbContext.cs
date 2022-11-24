@@ -11,6 +11,7 @@ namespace CarRentingSystem.Data
         public CarRentingDbContext(DbContextOptions<CarRentingDbContext> options)
             : base(options)
         {
+
         }
 
         public DbSet<Car> Cars { get; set; }
